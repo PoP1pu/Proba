@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Registrachia">
+
+
+    <ImageView
+        android:layout_width="216dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/frame69" />
+
+    <ImageView
+        android:layout_width="399dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:src="@drawable/world" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:textColor="#888686"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:textColorHint="#888686"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"
+        android:textColorHint="#888686"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textColorHint="#888686"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Пароль"
+        android:textColorHint="#888686"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Повторите пароль"
+        android:textColorHint="#888686"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Зарегистрироваться"
+        android:layout_marginTop="60dp"
+        android:onClick="sign"
+        tools:ignore="OnClick"
+        android:background="#FF5722"/>
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="У меня уже есть аккаунт"
+        android:textColor="#FF5722"
+        android:onClick="sign"
+        android:background="@color/black"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

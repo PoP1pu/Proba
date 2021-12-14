@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="263dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/frame69"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/world"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:hint="E-mail"
+        android:textColorHint="#888686"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Пароль"
+        android:textColorHint="#888686"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Войти"
+        android:onClick="login"
+        tools:ignore="OnClick"
+        android:background="#FF5722"/>
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Регистрация"
+        android:textColor="#FF5722"
+        android:onClick="signin"
+        tools:ignore="OnClick"
+        android:background="@color/black"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
